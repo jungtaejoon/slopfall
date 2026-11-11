@@ -8,4 +8,5 @@ if (ko.includes('</script>') && ko.split('</script>').length !== 2) throw new Er
 writeFileSync(new URL('./slopfall.html', import.meta.url), ko);
 const en = ko.replace("const LANG = 'ko';", "const LANG = 'en';").replace('<html lang="ko">', '<html lang="en">').replace('<title>슬롭폴</title>', '<title>Slopfall</title>');
 writeFileSync(new URL('./slopfall.en.html', import.meta.url), en);
+writeFileSync(new URL('./index.html', import.meta.url), ko); // GitHub Pages opens the Korean edition; English is slopfall.en.html
 console.log('built', (ko.length / 1024).toFixed(1) + ' KB');
