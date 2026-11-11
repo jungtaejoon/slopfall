@@ -4,7 +4,9 @@
 
 A four-act pixel action game: carry the Seed Index to the Filter Tower. Made with Claude and posted on [Slop](https://slop.ai.kr).
 
-**플레이 / Play:** [한국어](https://slop.ai.kr/p/387dabe2-ef5a-4e45-b4b7-f4eeb65c73d0) · [English](https://slop.ai.kr/p/e32b2c2f-b368-4015-b00a-bab683897509)
+**바로 플레이 / Play now:** [한국어](https://jungtaejoon.github.io/slopfall/) · [English](https://jungtaejoon.github.io/slopfall/slopfall.en.html)
+
+**Slop에서 판정하기 / Judge it on Slop:** [한국어](https://slop.ai.kr/p/387dabe2-ef5a-4e45-b4b7-f4eeb65c73d0) · [English](https://slop.ai.kr/p/e32b2c2f-b368-4015-b00a-bab683897509)
 — 또는 이 저장소의 `slopfall.html`(한국어) / `slopfall.en.html`(English)을 브라우저로 바로 열어도 돼요. Or just open either file in a browser.
 
 ![게임 화면](docs/play.png)
@@ -51,7 +53,7 @@ src/            게임 코드 (번호 순서대로 이어 붙여요) / game sour
   71-hud.js     HUD, 대화, 카드 / HUD, dialogue, cards
   75-scenes.js  여정 흐름, 쉼터, 상점, 사건 / journey flow and scenes
   80-game.js    상태와 메인 루프 / states and main loop
-build.mjs       src를 이어 붙여 slopfall.html(한국어)과 slopfall.en.html(영어)을 만들어요
+build.mjs       src를 이어 붙여 slopfall.html·index.html(한국어)과 slopfall.en.html(영어)을 만들어요
 ```
 
 ```bash
